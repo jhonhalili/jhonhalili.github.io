@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/ccc.jpeg">
+    <link rel="stylesheet" href="porpol.css">
+    <link rel="stylesheet" href="porpol2.css">
+    <script src="https://kit.fontawesome.com/4b5a8b7c18.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <script src="porpol.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jhon Carlo Halili</title>
+</head>
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Home')"><b>Home</b></button>
+        <button class="tablinks" onclick="openCity(event,'Projects')"><b>Projects</b></button>
+        <button class="tablinks" onclick="openCity(event,'Experience')"><b>Experience</b></button>
+    </div>
+
+    <div id="Home" class="tabcontent">
+        <h3 id="neym" style="color: white;">Hi! I'm Jhon Carlo Halili</h3>
+            <img src="images/me4.jpg" id="aq" class="image">
+            <p id="dets"></p>
+            <script>
+                var j = 0;
+                var txt = "2nd Year College taking Bachelor of Science in Computer Science at STI Ortigas-Cainta, aspiring Front-end Developer";
+                var speed = 80;
+                function typeWriter(){
+                    if(j < txt.length){
+                        document.getElementById("dets").innerHTML += txt.charAt(j);
+                        j++;
+                        setTimeout(typeWriter, speed);
+                    }
+                }typeWriter();
+            </script>   
+        <hr id="line">
+            <h4 id="socials">Socials</h4>
+                <span id="fb1"><a href="https://www.facebook.com/sh1ftty" target="_blank"><i class="fa-brands fa-facebook"></i><b> Facebook</b></a></span>
+                <span id="instagram"><a href="https://www.instagram.com/carlohalili_/" target="_blank"><i class="fa-brands fa-instagram"></i><b> Instagram</b></a></span>
+                <span id="twitter"><a href="https://twitter.com/xJhonncarlo" target="_blank"><i class="fa-brands fa-twitter"></i><b> Twitter</b></a></span>
+                <span id="discord"><a href="https://discord.com/users/745935361770913793" target="_blank"><i class="fa-brands fa-discord"></i><b> Discord</b></a></span>
+                <span id="tiktok"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa-brands fa-tiktok"></i><b> Tiktok</b></a></span>
+                <span id="mess"><a href="https://www.facebook.com/messages/t/100005448137858" target="_blank"><i class="fa-brands fa-facebook-messenger"></i><b> Messenger</b></a></span>
+            <h4 id="tech">Tech Stacks</h4>
+                <span id="ht5"><i class="fa-brands fa-html5"></i><b> HTML</b></span>
+                <span id="js"><i class="fa-brands fa-square-js"></i><b> JavaScript</b></span>
+                <span id="ces"><i class="fa-brands fa-css3-alt"></i><b> CSS</b></span>
+            <h4 id="contact">Contact Me</h4>
+                <span id="linkd"><a href="https://www.linkedin.com/in/jhon-carlo-halili-863375261/" target="_blank"><i class="fa-brands fa-linkedin"></i><b> Linkedln</b></a></span>
+                <span id="gmail"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa-regular fa-envelope"></i><b> Gmail</b></a></span>
+                <span id="tg"><a href="https://web.telegram.org/a/#1016079737" target="_blank"><i class="fa-solid fa-paper-plane"></i><b> Telegram</b></a></span>
+    </div>
+    <div id="Projects" class="tabcontent">
+        <div style="text-align: center;">
+            <h1 style="color: white; font-family: 'Caveat', cursive; font-size: 48px;">Coming Soon</h1>
+            <hr style="margin: auto; width: 40%;">
+            <p id="bilang" style="font-size: 30px; color: white;"></p>
+        </div>
+        </div>
+        
+    <div id="Experience" class="tabcontent">
+        <div style="text-align: center; font-family: arial;">
+        <h1 id="kaisa">wala pa po hehe</h1>
+    </div>
+    </div>
+    
+</body>
+</html>

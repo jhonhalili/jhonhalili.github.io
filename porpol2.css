@@ -1,0 +1,37 @@
+#socials:hover,
+#tech:hover,
+#contact:hover,
+.tablinks:hover{
+    color:white;
+}
+#fb1:hover,
+#instagram:hover,
+#twitter:hover,
+#discord:hover,
+#tiktok:hover,
+#mess:hover,
+#ht5:hover,
+#js:hover,
+#ces:hover,
+#linkd:hover,
+#gmail:hover,
+#tg:hover{
+    color:white;
+    border: 1px solid white;
+}
+a:visited{
+    color:gray;
+}
+a:link{
+    color: gray;
+}
+a:hover{
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: caveat;
+    src: url(caveat.tff);
+}
